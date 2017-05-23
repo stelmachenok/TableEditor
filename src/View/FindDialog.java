@@ -56,7 +56,7 @@ public class FindDialog {
         }
         else
         if (searchOption.isSelected(numberAndDateFromRadioButton.getModel())) {
-            
+
             if (controller.searchByNumberAndDateFrom() == -1){
                 return;
             }
